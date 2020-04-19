@@ -1,0 +1,59 @@
+.jumbotron
+{
+    font-size: xx-large;
+}
+.container-fluid
+{
+    margin-top: 0px;
+ 
+}
+#left
+{
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;
+    margin:0 auto;
+    margin-top: 0%;
+    margin-bottom: 10%;
+
+}
+
+#middle
+{
+
+    border: 0;
+    height: 250px;
+    width: 250px;
+    margin:0 auto;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    margin-left: 10px;
+ 
+}
+#right
+{
+    border: 2px solid green;
+    height: 250px;
+    width: 250px;
+    margin:0 auto;
+    margin-top: 0%;
+    margin-bottom: 10%;
+ 
+}
+#num
+{
+    height: 250px;
+    width: 250px;
+    font-size: 39px;
+    float: center;
+}
+#result
+{
+    font-size: xx-large;
+}
+.btn
+{
+    margin-left: 40%;
+    width: 330px;
+    height: 50px;
+}

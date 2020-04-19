@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--BOOTSTRAP OUTSIDE SOURCE-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<!--JAVASCRIPT EXTERNAL SOURCE-->
+<script src="celcious.js"></script>
+<!--CSS EXTERNAL SOURCE-->
+<link rel="stylesheet" href="Fahrenheit.css">
+
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahrenheit to Celsius</title>
+</head>
+<body>
+    <div class="jumbotron text-center"> Fahrenheit TO Celsius</div>
+        <div class="container-fluid">
+            <div class="row">
+            <div id="left">
+                <input id="num" type="text" placeholder="INPUT PLEASE"/>
+            </div>
+            <div id="middle">
+                
+                <img  src="celcious.jpg" style="width:400px; height: auto;"/>
+            
+            </div>
+            <div id="right">
+                <p style="font-size: xx-large;">Answer is:</p>
+                <span id="result"></span>
+            </div>
+            <br><br><br>
+            
+        </div>
+    </div>
+    <button type="button" class="btn btn-secondary" onClick="toCelsius()">Want to check!!!!</button>
+</body>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <!--CSS file-->
+        <link rel="stylesheet" href="calculator.css">
+        <!--js file-->
+        <script src="calculator.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <title>Easy Calculator</title>
+</head>
+<body>
+
+
+    <div class="jumbotron text-center">
+        <h1>Simple Calculator</h1>
+     </div>
+     <div class="container" style="margin-top:30px">
+        <div class="row">
+                <div id="ftextbox">
+                    <input type="text" id="ftxt"class="form-control"  placeholder="FIRST DIGIT" />
+                </div>
+                <div id="stextbox">
+                    <input type="text" id="stxt"class="form-control"  placeholder="SECOND DIGIT" />
+                </div>
+                  <div id="submit">
+                     <button type="button" class="btn btn-danger" onClick="add()">Addition</button>
+                     &nbsp;&nbsp;
+                     <button type="button" id="btn2" class="btn btn-danger" onClick="sub()">Subtraction</button>
+                    
+                      
+                      <br><br><br>
+                      <span id="result"></span>
+                 </div>
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>
